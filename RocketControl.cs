@@ -22,16 +22,6 @@ public class RocketControl : MonoBehaviour
 
     private void Update()
     {
-        //movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-        /*if (Input.GetKey(KeyCode.RightArrow))
-        {
-            Rotation('R');
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            Rotation('L');
-        }*/
     }
     //meerdere malen oproepen per frame
     private void FixedUpdate()
