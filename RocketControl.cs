@@ -9,7 +9,6 @@ public class RocketControl : MonoBehaviour
 {
     // Start is called before the first frame update
     Rigidbody rb;
-    public Vector3 movement;
     public float speed = 5f;
     public float rotateSpeed = 100f;
     float rotation;
